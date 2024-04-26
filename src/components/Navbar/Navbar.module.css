@@ -1,0 +1,57 @@
+.navbar{
+    background: var(--m-bg-color);
+    height: 80px;
+    font-weight: bold;
+}
+
+.navbar .container-fluid{
+    justify-content: space-between;
+}
+
+
+.title{
+    height: 60px;
+    min-width: 160px;
+    max-width: 200px;
+    font-size: 1.5rem;
+}
+
+.cart{
+    height: 50px;
+    width: 100px;
+    font-size: 1.2rem;
+}
+
+.login{
+    height: 50px;
+    width: 120px;
+    font-size: 1.2rem;
+}
+
+.logout{
+    height: 50px;
+    width: 120px;
+    font-size: 1.2rem;
+}
+
+.orders{
+    height: 50px;
+    width: 120px;
+    font-size: 1.2rem;
+}
+
+
+.search{
+    width: 40%;
+    font-size: 1.5rem;
+}
+
+
+.search input{
+    font-size: 1.3rem;
+}
+
+.search input:focus{
+    outline: none;
+}
+

@@ -1,0 +1,77 @@
+
+.homelayout{
+    width: 99%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.items{
+    width:78%;
+    /* border: 2px solid black; */
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    padding-bottom: 100px;
+}
+
+
+
+
+/*filters*/
+
+.filtersSection{
+    width:20%;
+    /* border: 2px solid black; */
+}
+
+.filterBox{
+    width: 20%;
+    min-width: 190px;
+    margin: auto;
+    min-height: 300px;
+    position: fixed;
+    top: 30vh;
+    text-align: center;
+    padding:  10px;
+    color: white;
+    background:  linear-gradient(to right, rgb(255, 95, 109), rgb(255, 195, 113));
+    border-radius: 2px;
+}
+
+
+.range{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.range input{
+    margin:0 5px;
+}
+
+
+.checks{
+    margin-top: 20px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.checks label{
+    margin-left: 10px;
+}
+
+
+/*loading*/
+
+.box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+}

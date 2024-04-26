@@ -1,0 +1,42 @@
+.item{
+    height: 430px;
+    box-shadow: 0 0 5px 0.5px var(--s-font-color);
+}
+
+.button{
+    background: transparent;
+    height: 40px;
+    width: 40px;
+    border: none;
+    padding: 4px;
+}
+
+
+.button:active{
+    transform: scale(0.97);
+}
+
+
+.remove{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    padding: 5px 15px;
+    border-radius: 5px;
+    border:none;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 10px;
+    left: 48px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow:0 0 2px 1px red;
+}
+
+.remove:hover{
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+
+.remove:active{
+    transform: scale(0.97);
+}

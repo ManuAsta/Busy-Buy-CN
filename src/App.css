@@ -1,0 +1,20 @@
+html,body{
+  margin: 0;
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
+
+.App{
+  height: 100%;
+}
+
+:root{
+  /*main background color*/
+  --m-bg-color:linear-gradient(110.1deg, rgb(241, 115, 30) 18.9%, rgb(231, 29, 54) 90.7%);
+  --s-bg-color:linear-gradient(to right, #868f96 0%, #596164 100%);
+  --border-color:orange;
+  --s-font-color:rgb(212, 69, 22);
+}

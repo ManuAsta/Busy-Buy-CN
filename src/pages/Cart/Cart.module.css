@@ -1,0 +1,66 @@
+.cartlayout{
+    width: 99%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.priceSection{
+    width:20%;
+    /* border: 2px solid black; */
+}
+
+
+
+.priceBox{
+    max-width: 10%;
+    min-width: 20%;
+    margin: auto;
+    min-height: 200px;
+    position: fixed;
+    top: 30vh;
+    text-align: center;
+    padding:  10px;
+    color: white;
+    background:  linear-gradient(to right, rgb(255, 95, 109), rgb(255, 195, 113));
+    border-radius: 2px;
+}
+
+.items{
+    width:78%;
+    /* border: 2px solid black; */
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    padding-bottom: 100px;
+}
+
+
+
+
+.update{
+    top:60%;
+    left: 8%;
+}
+
+.order{
+    padding: 2px 10px;
+    border: none;
+    background: rgb(255, 0, 115);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.order:hover{
+    color: rgb(255, 0, 115);
+    background: white;
+}
+.order:active{
+    transform: scale(0.97);
+}

@@ -1,0 +1,39 @@
+.item{
+    border: none;
+    box-shadow: 0 0 5px 0.3px orange;
+    height: 450px;
+    position: relative;
+}
+
+.buy-btn{
+    background: var(--m-bg-color);
+    color: white;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.buy-btn:hover{
+    color: rgba(63, 251, 0, 0.694);
+    box-shadow: 0 0 2px 1px rgba(30, 16, 159, 0.519);
+   
+}
+
+.image{
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0 0 2px 0.3px grey;
+}
+
+
+.price{
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+}

@@ -1,0 +1,41 @@
+
+
+.box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.button{
+    background: transparent;
+    height: 40px;
+    width: 40px;
+    border: none;
+    padding: 4px;
+}
+
+.button:active{
+    transform: scale(0.97);
+}
+
+.cart-button{
+    background: var(--m-bg-color);
+    padding:8px 20px;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cart-button:hover{
+    background: var(--s-bg-color);
+    box-shadow: 0 0 4px 0.5px var(--s-font-color);
+}
+
+.cart-button:active{
+    transform: scale(0.97);
+}
